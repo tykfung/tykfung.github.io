@@ -65,7 +65,7 @@ body
     border-left: 1px solid #fff;
     list-style-type: none;
     padding: 15px 35px;
-    text-align: center; 
+    text-align: center;
     background-color: orange;
     cursor: pointer;
 }
@@ -144,7 +144,7 @@ color: orange;
     padding: 0 100px 10px 10px;
     position: fixed;
     background: #ececec;
-    box-shadow: 1px 1px 4px 1px rgb (0,0,0,0.5); 
+    box-shadow: 1px 1px 4px 1px rgb (0,0,0,0.5);
 
 }
 .fa-angle-right
@@ -198,7 +198,7 @@ color: orange;
     box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.5);
 }
 .carousel-item{
-    height: 630px;
+    height: 550px;
 }
 .carousel-indicators
 {
@@ -207,7 +207,7 @@ color: orange;
 @media only screen and (max-width: 980px)
 {
     .slider{
-        width: 100%; 
+        width: 100%;
         margin-left: 0;
     }
 }
@@ -352,4 +352,61 @@ color: orange;
 }
 .footer-image img{
     width:50%;
+}
+
+/*---------- single product css --------*/
+
+.single-product{
+    margin-top: 70px;
+}
+.new-arrival{
+    background: green;
+    width: 50px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.col-7-md h2{
+    color:#555;
+}
+.single-product .fa{
+    color: orange;
+}
+.single-product .price{
+    color: orange;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.single-product input{
+    border: 1px solid #ccc;
+    font-weight: bold;
+    height: 33px;
+    text-align: center;
+    width: 30px;
+}
+.single-product .btn-primary
+{
+background: orange !important;
+color: #fff;
+font-size: 15px;
+margin-left: 20px;
+border: none;
+box-shadow: none;
+}
+
+/*---------- product description css --------*/
+
+.product-description h6{
+    margin-top: 60px;
+    margin-left: 155px;
+    color: orange;
+}
+.product-description p{
+    margin-top: 30px;
+    margin-left: 155px;
+}
+.product-description hr{
+    margin-bottom: 50px;
 }
